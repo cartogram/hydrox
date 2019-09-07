@@ -1,0 +1,14 @@
+{
+  "extends": "@shopify/typescript-configs/application.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "rootDir": ".",
+    "paths": {
+      "*": ["*", "packages/*", "src/*"]
+    }
+  },
+  "include": [
+    "./src/**/*",
+    "./packages/**/*",
+  ]
+}

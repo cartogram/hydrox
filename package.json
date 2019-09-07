@@ -1,0 +1,32 @@
+{
+  "name": "hydrox",
+  "version": "0.0.0",
+  "description": "GraphQL for command line interfaces",
+  "main": "index.js",
+  "scripts": {
+    "build:development": "sewing-kit build --mode development",
+    "build:production": "sewing-kit build",
+    "check": "sewing-kit check",
+    "dev": "sewing-kit dev",
+    "lint": "sewing-kit lint",
+    "nuke": "sewing-kit nuke",
+    "optimize": "sewing-kit optimize",
+    "test": "sewing-kit test"
+  },
+  "author": "Matthew Seccafien",
+  "license": "ISC",
+  "dependencies": {
+    "@shopify/react-server": "^0.4.0",
+    "@shopify/sewing-kit": "^0.104.1",
+    "@shopify/typescript-configs": "^1.0.2",
+    "koa": "^2.8.1",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  },
+  "devDependencies": {
+		"@types/koa": "^2.0.49",
+		"@types/react": "^16.9.2",
+    "@types/react-dom": "^16.9.0",
+    "typescript": "^3.6.2"
+  }
+}
